@@ -1,24 +1,5 @@
-# README
+# Hi, I'm Jhay! 👋
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+- 🚀 Aspiring Web Developer
+- 🌱 I’m currently learning Ruby on Rails at Avion School
+- 💬 Ask me about what I know in front end
