@@ -77,21 +77,27 @@
 .social_media2 {
     margin:  5px 0 5px 0;
 }
-
-
 .github, .linkedin, .twitter {
     width: 40px;
     height: 40px;
     border:none;
-    border: transparent;
-    outline: transparent;
+    outline: none;
+    margin: 0;
+    padding: 0;
+    box-shadow: none;
 }
 .github {
-    background-image: url(githublogo.svg);
+    background-image: url('https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png');
+    background-size: contain;
+    border-radius: 50%;
 }
 .linkedin {
-    background-image: url(linkedin.svg);
+    background-image: url('https://cdn3.iconfinder.com/data/icons/free-social-icons/67/linkedin_circle_black-512.png');
+    background-size: contain;
+    border-radius: 50%;
 }
 .twitter {
-    background-image: url(twitter.svg);
+    background-image: url('https://logosvector.net/wp-content/uploads/2015/09/twitter-icon-circle-logo.png');
+    background-size: contain;
+    border-radius: 50%;
 }
