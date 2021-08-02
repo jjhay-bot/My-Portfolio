@@ -1,3 +1,104 @@
 // Place all the styles related to the PAGE controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
+
+.home {
+    background: url(https://www.teahub.io/photos/full/156-1566584_night-city-street-light.jpg) center center;
+    background-size: cover;
+    min-height: 600px;
+    position: unset;
+    color: white;
+}
+.highlight {
+    background-color: white;
+    color: black;
+    padding: 0.05rem 0.5rem 0.25rem 0.5rem;
+    border-radius: 5px;
+    line-height: 3.5rem;
+}
+.mywork, .mywork2{
+    display: flex;
+    flex-direction: column;
+    width: 50rem;
+    justify-items: flex-end;
+    justify-items: center;
+    justify-content: center;
+    justify-self: center;
+}
+.mywork2 {
+    width: 12.5rem;
+    text-shadow:tomato 0.05rem  0.05rem ;
+}
+.viewwork {
+    width: 225px;
+    text-align: right;
+    display: flex;
+    /* flex-direction: column; */
+}
+.social_media, .social_media2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    padding: 0;
+    margin:  25px 0 5px 0;
+}
+.social_media2 {
+    margin:  5px 0 25px 0;
+}
+.github, .linkedin, .twitter {
+    width: 40px;
+    height: 40px;
+    border:none;
+    outline: none;
+    margin: 0;
+    padding: 0;
+    box-shadow: none;
+}
+.github {
+    background-image: url('https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png');
+    background-size: contain;
+    border-radius: 50%;
+}
+.linkedin {
+    background-image: url('https://cdn3.iconfinder.com/data/icons/free-social-icons/67/linkedin_circle_black-512.png');
+    background-size: contain;
+    border-radius: 50%;
+}
+.twitter {
+    background-image: url('https://logosvector.net/wp-content/uploads/2015/09/twitter-icon-circle-logo.png');
+    background-size: contain;
+    border-radius: 50%;
+}
+.portfolio {
+    background-image: url('https://static.kent.ac.uk/nexus/ems/818.jpg');
+    background-position-y: top;
+    background-color: #eee;
+    background-size: cover;
+    min-height: 500px;
+    width: 100%;
+    color: white;
+    padding: 0;
+    margin: 0;
+}
+.boxheader, .boxheader2 {
+    height: 35px;
+    margin-bottom: 0;
+    background-color:#eaeff4;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 5px;
+}
+.boxheader2 {
+    justify-content: flex-end;
+    
+}
+
+.Zcircle {
+    height: 20px;
+    margin: 2px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: white;
+}
